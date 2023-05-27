@@ -22,6 +22,7 @@
     <modules>
         <module>hello-world</module>
         <module>nacos-discovery-http</module>
+        <module>nacos-register</module>
     </modules>
 
     <dependencies>
@@ -69,6 +70,7 @@
 
     <build>
         <finalName>${project.name}</finalName>
+        <!-- yml中使用pom中的变量 -->
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
