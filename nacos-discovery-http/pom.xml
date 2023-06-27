@@ -10,6 +10,7 @@
     <name>nacos-discovery-http</name>
     <modules>
         <module>nacos-discovery-http-provider</module>
+        <module>nacos-discovery-http-consumer</module>
     </modules>
     <!--    <url>http://maven.apache.org</url>-->
     <packaging>pom</packaging>
